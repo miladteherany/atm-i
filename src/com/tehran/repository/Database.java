@@ -12,7 +12,7 @@ public class Database {
     public Database() {
         this.accounts = new ArrayList<>();
         accounts.add(new Account("1234",
-                new Person("Milad", "Tehrany", 30, "0014371715")));
+                new Person("Name", "Family", 30, "NationalCode")));
     }
 
     public List<Account> getAccounts() {
